@@ -9,6 +9,7 @@ for i in range(R1):
     for j in range(C1):
          a.append(int(input()))
     A.append(a)
+print(A)
  
 R2 = int(input("Enter the number of rows in 2nd matrix: "))
 C2 = int(input("Enter the number of columns in 2nd matrix: "))
@@ -21,7 +22,8 @@ for i in range(R2):
     for j in range(C2):
          b.append(int(input()))
     B.append(b)
-     
+print(B)
+
 result = []
 
 for i in range(R1):

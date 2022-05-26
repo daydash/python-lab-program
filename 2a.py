@@ -1,7 +1,7 @@
 # Program to multiply two matrices
 A=[]
 n=int(input("Enter N for N x N matrix: "))
-print("Enter the element ::>")
+print("Enter the element:")
 for i in range(n):
     row=[]
     for j in range(n):
@@ -18,7 +18,7 @@ for i in range(n):
 
 B=[]
 n=int(input("Enter N for N x N matrix: "))
-print("Enter the element ::>")
+print("Enter the element:")
 for i in range(n):
     row=[]
     for j in range(n):
@@ -34,12 +34,12 @@ for i in range(n):
     print()
 
 
-result = [[0,0,0],[0,0,0],[0,0,0]]
+result = []
 for i in range (len(A)):
     for j in range(len(B[0])):
         for k in range(len(B)):
             result[i][j] +=A[i][k] * B[k][j]
 
-print("The Result Matrix is::>")
+print("The Result Matrix is:")
 for r in result:
     print(r)
